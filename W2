@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main() {
+	setlocale(0, "");
+	int n_1;
+	cout << "Введите число: ";
+	cin >> n_1;
+	cout << end1;
+	while (n_1 >= 1) {
+		cout << "Отсчет: " << n_1 << end1;
+		n_1--;
+		if (n_1 < 1) {
+			cout << end1 << "[ + ] Старт!" << end1;
+		}
+	}
+
+
+}
