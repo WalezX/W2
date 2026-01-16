@@ -5,12 +5,12 @@ int main() {
 	int n_1;
 	cout << "Введите число: ";
 	cin >> n_1;
-	cout << end1;
+	cout << endl;
 	while (n_1 >= 1) {
-		cout << "Отсчет: " << n_1 << end1;
+		cout << "Отсчет: " << n_1 << endl;
 		n_1--;
 		if (n_1 < 1) {
-			cout << end1 << "[ + ] Старт!" << end1;
+			cout << endl << "[ + ] Старт!" << endl;
 		}
 	}
 
